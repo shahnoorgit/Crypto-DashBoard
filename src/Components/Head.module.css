@@ -1,0 +1,25 @@
+.head {
+  display: flex;
+  justify-content: space-around;
+  width: calc(100vw - 256px);
+  justify-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+  align-items: center;
+  border: 1px solid #eeeef4;
+}
+@media only screen and (max-width: 600px) {
+  .head {
+    min-width: 100vw;
+    min-height: 20px;
+  }
+}
+
+#dashh3 {
+  font-family: Ubuntu;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 114.286% */
+  width: 143px;
+}

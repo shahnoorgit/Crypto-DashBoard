@@ -1,0 +1,50 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f3f7;
+  background-color: #f3f3f7;
+}
+.supportCon {
+  display: flex;
+  width: 960px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 30px auto;
+}
+.Contusmain {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 24px;
+  height: 24px;
+  padding: 2.5px 1px;
+
+  align-items: flex-start;
+  min-width: 386px;
+  min-height: 128px;
+}
+
+#H_id {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+#P_id {
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+.Contusform {
+  display: flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 16px;
+  border: 0.5 solid #eeeef4;
+  background-color: white;
+}

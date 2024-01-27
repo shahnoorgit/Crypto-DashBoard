@@ -1,0 +1,9 @@
+td {
+  padding: 1.5rem;
+}
+
+#label {
+  background: #797e82;
+  padding: 4px 6px;
+  border-radius: 100px;
+}

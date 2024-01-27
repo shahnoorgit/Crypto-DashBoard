@@ -1,0 +1,10 @@
+.nameForm {
+  display: flex;
+  gap: 24px;
+}
+
+.formCon {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

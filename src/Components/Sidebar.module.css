@@ -1,0 +1,15 @@
+#barname{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  color:  #5F00D9;
+}
+
+.dashicon{
+  margin: 10px;
+}
+.active{
+  background-color: #5F00D9;
+}
+

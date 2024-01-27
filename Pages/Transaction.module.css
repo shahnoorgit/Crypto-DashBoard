@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f3f3f7;
+  background-color: #f3f3f7;
+}
+
+.TranInfo {
+  display: flex;
+  margin: auto;
+  width: 960px;
+}
+
+#Exportbtn {
+  position: absolute;
+  top: 70px;
+  right: 160px;
+  display: inline-flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 10px;
+  color: white;
+  background-color: #5f00d9;
+}
+.TranInfo {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  border: 1px solid #eeeef4;
+  background-color: white;
+
+  margin: 70px auto;
+  width: 960px;
+  height: 500px;
+  border-radius: 16px;
+}

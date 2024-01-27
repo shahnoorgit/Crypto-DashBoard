@@ -1,0 +1,379 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color:  #F3F3F7;
+  background-color: #F3F3F7 ;
+}
+
+.allinfo{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+@media only screen and (max-width: 600px){
+  .allinfo{
+    min-width:100vw;
+    min-height: 100vh;
+  }
+}
+
+.balance{
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  border: 1px solid #EEEEF4;
+  background-color: white;
+  align-items: center;
+  margin: 10px auto;
+  width: 960px;
+  height: 106px;
+  border-radius: 16px;
+}
+
+.total{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-width:156px;
+  margin: 24px;
+}
+.wallet{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-width:156px;
+  margin: 24px;
+
+}
+.ttl{
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 7px;
+  color:  #535D66;
+}
+
+#ttlh3{
+  font-family: Ubuntu;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; 
+}
+
+#xs{
+  font-size: small;
+}
+
+.wlt{
+  display: flex;
+  gap: 30px;
+}
+
+.action{
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-left: 155px;
+}
+
+.actionbtn{
+  padding: 10px 16px;
+  background-color: #5F00D9;
+  color: white;
+  border-radius: 10px;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+
+.currCon{
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.currsub{ 
+  width: 468px;
+  height: 345px;
+  border-radius: 16px;
+  border: 0.5px solid #EEEEF4;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+   
+}
+
+.currprice{
+  display: flex;
+  justify-content: space-between;
+  max-width: 420px;
+  align-items: flex-start;
+  margin: 24px;
+}
+.currpricetxt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.priceinfo{
+  display: flex;
+  padding: 2px 0px;
+  align-items: baseline;
+  gap: 8px;
+}
+#stockgraf{
+  margin-bottom: -1px;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  color: green;
+}
+
+.graf{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2px;
+}
+
+.btnsellbuy{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.sellbuybtn{
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  border-radius: 10px;
+  color: white;
+  background: #5F00D9;
+}
+.timeCon{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 48px;  
+}
+.timestap{
+  display: flex;
+  width: 420px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#tiemstapLI{
+  list-style:none;
+  color:#797E82;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+.active{
+  background-color: #5F00D9;
+  color: red;
+}
+.Tabs{
+  display: inline-flex;
+  padding: 3px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+}
+
+.Tabs li{
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+}
+.Tabs li a{
+  color: black;
+}
+.currTran{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 420px;
+  align-items: flex-start;
+  margin: 24px;
+}
+.TranList{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 25px;
+}
+.iconTran{
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  background: #F3F3F7;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.recentTran{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Traninfo{
+  display: flex;
+  width: 364px;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-height: 42px;
+}
+
+#listHead{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+#listTime{
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  color: #797E82;
+  margin-top: -16px;
+}
+
+#listAmount{
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; 
+}
+
+#viewall{
+  border-radius: 10px;
+  padding: 10px 16px;
+}
+
+.currloan_contactCon{
+  display: flex;
+  gap: 24px;
+  margin: 10px auto;
+}
+
+.loan_contactCon{ 
+  width: 468px;
+  min-height: 130px;
+  border-radius: 16px;
+  border: 0.5px solid #EEEEF4;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  display: inline-flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+   
+}
+.loanConLabel2{
+  display: flex;
+  padding: 4px 6px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+  border-radius: 100px;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; 
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.loan_contactCon2{ 
+  width: 468px;
+  min-height: 130px;
+  border-radius: 16px;
+  border: 0.5px solid #EEEEF4;
+  background-color: #5F00D9;
+  display: flex;
+  flex-direction: column;
+  display: inline-flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+   
+}
+
+.loanConLabel{
+  display: flex;
+  padding: 4px 6px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  background: #5F00D9;
+  border-radius: 100px;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; 
+  color: white;
+  text-decoration: none;
+}
+
+.loanConPara{
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; 
+
+}
+.loanConPara2{
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; 
+  background-color: transparent;
+  color: white;
+  
+
+}
